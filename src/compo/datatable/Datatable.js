@@ -6,7 +6,7 @@ import "./Datatable.css";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const columns: GridColDef[] = [
   {
@@ -95,7 +95,6 @@ const columns: GridColDef[] = [
 export default function DataTable() {
   const { products } = useSelector((state) => state.products);
   const dispatch = useDispatch();
-  const { userID } = useParams();
   useEffect(() => {
     dispatch(getAllProducts());
   }, [dispatch]);

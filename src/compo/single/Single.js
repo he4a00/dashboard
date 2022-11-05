@@ -16,6 +16,7 @@ const Single = () => {
   };
   useEffect(() => {
     getSingleProduct();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const [toggleSidebar, setToggleSidebar] = useState(true);
   return (
