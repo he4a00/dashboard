@@ -1,0 +1,12 @@
+.chart {
+    flex: 4;
+    box-shadow: 2px 4px 10px 1px rgb(241, 241, 241);
+    padding: 20px;
+    color: gray;
+}
+
+@media (max-width: 767px) {
+    .chart {
+        width: 100%;
+    }
+}

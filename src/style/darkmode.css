@@ -1,0 +1,121 @@
+.app.darkmode {
+  background-color: #222;
+}
+
+.app.darkmode.sidebar {
+  background-color: #222;
+}
+
+/* Dark Mode (Navbar) */
+
+.app.darkmode .navbar {
+  background-color: #222;
+}
+
+.app.darkmode .nav-wrapper .search input {
+  background-color: #222;
+  border: 1px solid #8d8d8d;
+}
+
+.app.darkmode .widgets,
+.app.darkmode .charts {
+  background-color: #222;
+}
+
+/* Dark mode (widgets) */
+
+.app.darkmode .widget {
+  box-shadow: none;
+  border: 1px solid rgb(153, 115, 115);
+}
+
+.app.darkmode .widget .left .price {
+  color: #eee;
+}
+.app.darkmode .widget .left .link {
+  color: rgb(153, 115, 115);
+}
+
+/* Dark Mode (Chart) */
+
+.app.darkmode .chart {
+  box-shadow: none;
+  border: 1px solid rgb(153, 115, 115);
+}
+
+/* Dark Mode (Featured) */
+
+.app.darkmode .featured {
+  box-shadow: none;
+  border: 1px solid rgb(153, 115, 115);
+}
+
+.app.darkmode .featured .bottom .amount {
+  color: #8d8d8d;
+}
+
+.app.darkmode .featured .target .target-1 {
+  color: #8d8d8d;
+}
+
+/* Dark Mode (Table) */
+
+.app.darkmode .listContainer {
+  background-color: #222;
+}
+.app.darkmode .listContainer .table {
+  background-color: #222;
+}
+.app.darkmode .listContainer .table .tableCell {
+  color: #8d8d8d;
+}
+
+/* Dark Mode (Data Table) */
+
+.app.darkmode .cell {
+  color: #8d8d8d;
+}
+.app.darkmode .cellCategory span {
+  color: #8d8d8d;
+}
+.app.darkmode .cellPrice span {
+  color: #8d8d8d;
+}
+.app.darkmode .cellId span {
+  color: #8d8d8d;
+}
+.app.darkmode .cellActions button {
+  color: #8d8d8d;
+}
+
+.app.darkmode .css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+  color: #8d8d8d;
+}
+
+.app.darkmode .cellActions .cellIcon {
+  color: #8d8d8d;
+}
+
+
+/* Dark Mode (Single Product) */ 
+
+.app.darkmode .productHeader {
+  color: #c4bdbd;
+}
+
+.app.darkmode .single-item-details {
+  color: #c4bdbd;
+}
+
+.app.darkmode .deatils-bottom .table {
+  background-color: #222;
+}
+
+.app.darkmode .single .singleContainer .details-top .details-top-right {
+  box-shadow: none;
+  border: 1px solid rgb(153, 115, 115);
+}
+.app.darkmode .single .singleContainer .details-top .details-top-left {
+  box-shadow: none;
+  border: 1px solid rgb(153, 115, 115);
+}

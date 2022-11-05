@@ -1,0 +1,23 @@
+.table {
+  padding: 20px;
+}
+
+.table .tableCell-header {
+  font-size: 18px;
+  color: gray;
+}
+
+.table .tableCell {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.tableCell-s.Approved {
+  color: yellowgreen;
+}
+.tableCell-s.Pending {
+  color: goldenrod;
+}
+.tableCell-s.Rejected {
+  color: red;
+}

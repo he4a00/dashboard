@@ -1,0 +1,119 @@
+
+.sidebar {
+  flex: 1;
+  border-right: 1px solid #eeeeee;
+}
+
+
+/* Sidebar Top Sectiom (Logo) */
+.sidebar .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* Sidebar Center Sectiom (List) */
+
+.sidebar .top h5 {
+  font-size: 19px;
+  color: #725ed4;
+  cursor: pointer;
+}
+
+.sidebar .center ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .center ul .title {
+  font-size: 13px;
+  color: gray;
+  padding: 10px;
+}
+
+.sidebar .center ul li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.4s;
+}
+
+.sidebar .center ul li:hover {
+  transition: 0.4s;
+  background-color: rgb(250, 239, 239);
+  border-radius: 9px;
+}
+
+.sidebar .center ul li span {
+  margin-left: 10px;
+  color: gray;
+  font-weight: 500;
+}
+
+.sidebar .center ul li .icon1 {
+  color: #725ed4;
+  font-size: 20px;
+}
+
+/* Sidebar Bottom Sectiom (Color Options) */
+
+.sidebar .bottom {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .bottom .title {
+  font-size: 13px;
+  color: gray;
+  padding: 10px;
+}
+
+.sidebar .bottom .color-wrap {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.sidebar .bottom .color-wrap .black {
+  width: 15px;
+  height: 15px;
+  background-color: #2a2a2a;
+  border: 1px solid rgba(159, 152, 152, 0.933);
+  border-radius: 7px;
+  padding: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.sidebar .bottom .color-wrap .white {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 1px solid #2a2a2a;
+  border-radius: 7px;
+  padding: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/*  Meduia Query For Mobile */
+
+@media (max-width: 767px) {
+  .sidebar {
+    display: block;
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    display: block;
+  }
+}
+
+.hide-sidebar {
+  display: none;
+}
+
+

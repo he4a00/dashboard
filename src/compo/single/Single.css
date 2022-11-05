@@ -1,0 +1,62 @@
+.single {
+  display: flex;
+}
+
+.single .singleContainer {
+  flex: 8;
+}
+
+.single .singleContainer .details-top {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.single .singleContainer .details-top .details-top-left {
+  flex: 2;
+  box-shadow: 2px 4px 10px 1px rgb(241, 241, 241);
+  padding: 20px;
+}
+
+.single-btn {
+  position: relative;
+}
+
+.single-btn button {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  border-radius: 0;
+}
+.single .singleContainer .details-top .details-top-right {
+  flex: 1;
+  box-shadow: 2px 4px 10px 1px rgb(241, 241, 241);
+  padding: 20px;
+}
+
+.details-top .details-top-right .single-item {
+  display: flex;
+  gap: 10px;
+}
+.details-top .details-top-right .single-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: translateY(30px);
+}
+
+ .single-item-details  {
+  font-size: 22px;
+  margin-left: 10px;
+  transform: translateY(-30px);
+}
+.single-item .single-item-details h6  {
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+
+.singleContainer .details-bottom {
+  padding: 20px;
+}

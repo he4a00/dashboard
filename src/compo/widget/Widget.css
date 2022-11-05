@@ -1,0 +1,46 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  box-shadow: 2px 4px 10px 1px rgb(241, 241, 241);
+  border-radius: 9px;
+  flex-wrap: wrap ;
+}
+
+.icon {
+    padding: 5px;
+    border-radius: 5px;
+    align-self: end;
+  }
+  
+
+.widget .left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.widget .left .title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #b2b2b2;
+  margin: 5px;
+}
+
+.widget .left .price {
+  font-size: 29px;
+  font-weight: 500;
+  margin: 5px;
+}
+.widget .left .link {
+  color: #2b2b2b;
+  border-bottom: 1px solid #eeee;
+  margin: 5px;
+}
+.widget .right .percentage {
+  color: #d1b666;
+  font-weight: 500;
+}
+

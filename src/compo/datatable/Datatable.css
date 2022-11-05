@@ -1,0 +1,49 @@
+.cell {
+  display: flex;
+  align-items: center;
+}
+
+.cell .cellImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.cellStatus {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cellStatus.Approved {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.05);
+}
+.cellStatus.Pending {
+  color: goldenrod;
+  background-color: rgba(255, 217, 0, 0.05);
+}
+.cellStatus.Rejected {
+  color: rgb(228, 82, 82);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* .cellActions button {
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid crimson;
+} */
+.cellActions .cellIcon {
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.cellActions .cellIcon:first-child {
+    color: rgb(194, 145, 239);
+}
+.cellActions .cellIcon:nth-child(2) {
+    color: red
+}
+

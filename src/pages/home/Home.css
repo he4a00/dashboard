@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+}
+
+/* Home Content Section */
+
+.home .homeContainer {
+  flex: 8;
+}
+
+.widgets,
+.charts {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.listContainer {
+  box-shadow: 2px 4px 10px 1px rgb(241, 241, 241);
+  padding: 20px;
+}
+
+.list-title {
+  margin: 20px;
+  font-size: 19px;
+  color: gray;
+}
+
+@media screen and (max-width: 767px) {
+  .widgets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

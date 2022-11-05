@@ -1,0 +1,67 @@
+.featured {
+    flex: 2;
+    box-shadow: 2px 4px 10px 1px rgb(241, 241, 241);
+    padding: 20px;
+}
+
+.featured .top {
+    display: flex;
+    justify-content: space-between;
+    color: #8d8d8d;
+}
+
+.featured .top .feat-title {
+    color: #8d8d8d;
+    font-size: 18px;
+}
+
+.featured .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.featured .bottom .featuredChart {
+    height: 100px;
+    width: 100px;
+}
+.featured .bottom .title {
+    color: #8d8d8d;
+    font-size: 19px;
+}
+.featured .bottom .amount {
+    font-size: 35px;
+}
+.featured .bottom .desc {
+    color: #8d8d8d;
+    font-size: 15px;
+}
+
+.featured .bottom .target {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured .bottom .target .target-1 {
+    text-align: center;
+}
+
+.featured .bottom .target .target-1 .target-details {
+    display: flex;
+    align-items: center;
+}
+
+.target-1 .target-details .target-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.target-1 .target-details .target-info .target-icon {
+    margin-bottom: 15px;
+    color: #8d8d8d;
+}
